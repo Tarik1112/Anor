@@ -5,14 +5,14 @@ const todoList = document.querySelector('.todo-list');
 const filterOption = document.querySelector('.filter-todo');
 
 //Event Listeners
-document.addEventListener("DOMContentLoaded",getTodos);
+document.addEventListener("DOMContentLoaded",getTodos); //VIDEO ZA EVENTLISTENER NACI. (zavrseno)
 todoButton.addEventListener('click',addTodo);
 todoList.addEventListener('click', deleteCheck);
 filterOption.addEventListener('click', filterTodo);
 
 //Functions
 
-function addTodo(event) {
+function addTodo(event) { //FUNKCIJE PREGLEDAT (zavrseno)
     //Prevent form from submitting
     event.preventDefault();
     //Todo DIV
